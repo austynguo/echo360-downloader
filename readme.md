@@ -25,7 +25,7 @@ The motivation for this project is as a result of echo360 video downloads being 
 3. This should change your screen to emulate a pre-defined user agent, in this case a mobile device such as a phone or tablet
 4. In the top middle of the screen click the drop down list containing the device names
 5. Click 'Edit', this should open up a panel over the dev panel
-6. Add a 'Custom device'
+6. Add a 'Custom device' - This is the step where we make Chrome pretend to be an iPad (or any other device given the appropriate user agent)
   - User agents field:
 `Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X. AppleWebKit/537.51.1 (KHTML, like Gecko. Version/7.0 Mobile/11A465 Safari/9537.5`
   - Screen resolution: Can be whatever you want (I used 1280x800 for ease of viewing).
