@@ -11,7 +11,7 @@ This documentation will go through the necessary steps to download echo360 lectu
 - Profit!!!
 
 ## Project context
-The motivation for this project is as a result of echo360 video downloads being disabled at the **University of Sydney**. Other echo360 downloaders exist, however many of these seem to either 1. Obtain a link to a video (.m4v format) from the RSS feed or 2. Append `/media.m4v?downloadOnly=true` which only works if the uni has explicitly enabled video downloads.
+The motivation for this project is as a result of echo360 video streams being served via the web security nightmare that is Adobe Flash with no option for an alternative download at the *University of Sydney*. (Plus, Flash is getting killed off - I'm not waiting around leaving my machine exposed in the meantime). Other echo360 downloaders exist, however many of these seem to either 1. Obtain a link to a video (.m4v format) from the RSS feed or 2. Append `/media.m4v?downloadOnly=true` (or similar) which worked on older versions and/or only works if the uni has explicitly enabled video downloads.
 
 ## Software/Ingredients required:
 * Chrome - (I used Version 52.0.2743.116 (64-bit))
@@ -65,9 +65,12 @@ http://delivery.streaming.sydney.edu.au:xxxx/echo/_definst_/xxxx/x/xxxxxxxx-xxxx
 For me a ~2 hr lecture came out as a 640x360 px ~125mb .mp4 file. Video quality is a little on the potato side (in part due to the resolution that is served to iPads), but it is definitely watchable and audio is fine.
 
 ## Streaming lectures in VLC
-As an aside you can also use this method to stream inside VLC as opposed to the web interface which I find clunky. Instead of making VLC save the stream, use the option to simply open and play a network stream e.g. 'Media > Open Network Stream' and paste the link that we edited
+As an aside you can also use this method to stream inside VLC as opposed to the Flash web interface which I find clunky and awkward. Instead of making VLC save the stream, use the option to simply open and play a network stream e.g. 'Media > Open Network Stream' and paste the link that we edited.
 
 ## Plans for the future?
 Maybe a script or browser extension if I'm bothered. This project is an afternoon's worth of procrastination to avoid other work :)
 
 Feel free to contribute or make improvements by forking/making a pull request.
+
+## Legal
+I hold no responsibility or liability for any actions or consequences that arise from your use of this information. It is just that, simply information. Use at your own risk.
