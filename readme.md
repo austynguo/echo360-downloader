@@ -41,12 +41,12 @@ The motivation for this project is as a result of echo360 video streams being se
 12. Download the file by pasting this link into a new tab
 13. Navigate to where you downloaded the file and right-click and 'Open As' in a text editor (e.g. Notepad)
 14. You will see that the file contents will be similar to:
-```
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1008032,CODECS="avc1.66.22,mp4a.40.2",RESOLUTION=648x360
-chunklist_w280308744.m3u
-```
+    ```
+    #EXTM3U
+    #EXT-X-VERSION:3
+    #EXT-X-STREAM-INF:BANDWIDTH=1008032,CODECS="avc1.66.22,mp4a.40.2",RESOLUTION=648x360
+    chunklist_w280308744.m3u
+    ```
 15. We only care about the last line of the file i.e. `chunklist_wXXXXXXXXX.m3u8`
 16. Remember that link we copied in to a text editor before? Remove `playlist.m3u8` from the end of the link and replace it with `chunklist_wXXXXXXXXX.m3u8`.
 Your link should now look like this:
