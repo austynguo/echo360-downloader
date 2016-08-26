@@ -72,5 +72,14 @@ Maybe a script or browser extension if I'm bothered. This project is an afternoo
 
 Feel free to contribute or make improvements by forking/making a pull request.
 
+### I got bored and wrote a ***bash script*** that automates steps 12-16
+If you don't know what a bash script is, google it.
+Steps:
+- Run `chmod +x run_echo360.sh` to give the script excutable permissions
+- Run using `./run_echo360.sh`
+- Feed it your delicious URL from step 11
+- Let it do its *thang*
+- Obtain URL to feed into step 17
+
 ## Legal
 I hold no responsibility or liability for any actions or consequences that arise from your use of this information. It is just that, simply information. Use at your own risk.
